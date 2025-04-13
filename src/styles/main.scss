@@ -1,0 +1,32 @@
+// Импорты базовых стилей
+@import "base/variables";
+@import "base/reset";
+@import "base/typography";
+
+// Импорты компонентов
+@import "components/buttons";
+@import "components/forms";
+
+// Импорты макета
+@import "layout/header";
+@import "layout/footer";
+@import "layout/grid";
+
+// Основные стили
+:root {
+  // Логические свойства для цветов
+  --color-primary: #646cff;
+  --color-secondary: #535bf2;
+  --color-background: #ffffff;
+  --color-text: #213547;
+}
+
+// Базовые стили с использованием логических свойств
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-block-size: 100vh;
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
