@@ -1,16 +1,16 @@
 // Импорты базовых стилей
-@import "base/variables";
-@import "base/reset";
-@import "base/typography";
+@use "base/variables";
+@use "base/reset";
+@use "base/typography";
 
 // Импорты компонентов
-@import "components/buttons";
-@import "components/forms";
+@use "components/buttons";
+@use "components/forms";
 
 // Импорты макета
-@import "layout/header";
-@import "layout/footer";
-@import "layout/grid";
+@use "layout/header";
+@use "layout/footer";
+@use "layout/grid";
 
 // Основные стили
 :root {

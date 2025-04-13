@@ -3,6 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "description": "Руководство по моддингу в Skyrim",
+  "author": "Andival-Sei",
+  "keywords": [
+    "skyrim",
+    "modding",
+    "guide",
+    "tutorial"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
