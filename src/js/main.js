@@ -1,8 +1,9 @@
 // Импорты стилей
 import '../styles/main.scss';
 
-// Импорт SpeedInsights
+// Импорт аналитики Vercel
 import { SpeedInsights } from "@vercel/speed-insights";
+import { Analytics } from "@vercel/analytics";
 
 // Импорты модулей
 // import './modules/example';
@@ -11,8 +12,9 @@ import { SpeedInsights } from "@vercel/speed-insights";
 document.addEventListener('DOMContentLoaded', () => {
   console.log('Приложение запущено!');
   
-  // Инициализация SpeedInsights
+  // Инициализация аналитики Vercel
   new SpeedInsights();
+  new Analytics();
   
   // Здесь будет основной код приложения
 }); 
